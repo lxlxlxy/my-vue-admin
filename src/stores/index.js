@@ -10,7 +10,7 @@ export const useAllDataStore = defineStore('allData', () => {
   /**
    * 顶部tag相关
    */
-  const tags=ref(cache.tags||   //管理所有顶部的tag的显示
+  const tags=ref(cache.tags ||   //管理所有顶部的tag的显示
     [
       {
         path:'/home',
